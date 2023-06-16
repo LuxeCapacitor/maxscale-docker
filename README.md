@@ -68,7 +68,7 @@ docker-compose down –v
 python3 main.py
 ```
 * I configured my output to appear as tables, you can use any display method you choose. The last 3 queries’ outputs were too large to post cleanly so I just posted the top portions.
-* Output for the 4 queries:
+## Output for the 4 queries:
 ### 1.) “The largest zipcode in zipcodes_one” 
 ### 2.) “All zipcodes where state=KY (Kentucky)” 
 ### 3.) “All zipcodes between 40000 and 41000” 
