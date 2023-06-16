@@ -14,12 +14,12 @@ pip3 install mysql-connector
 ```
 sudo apt install docker-compose
 ```
-*Update your Ubuntu VM
+* Update your Ubuntu VM
 ```
 sudo apt update  
 sudo apt upgrade -y
 ```
-*Install MaxScale container – you will need to clone the following repository to ensure proper installation: 
+* Install MaxScale container – you will need to clone the following repository to ensure proper installation: 
 ```
 git clone https://github.com/zohan/maxscale-docker/ 
 ```
