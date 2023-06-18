@@ -52,12 +52,16 @@ sudo docker-compose up –d
 sudo docker-compose exec maxscale maxctrl list servers
 ```
 * You should see output like this:
+  
+![ServerList](ServerList.jpg)
 
 * Next you should connect to MariaDB to verify proper operation. 
 ```
 mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 ```
 * Output should look similar to this:
+
+ ![MariaDB](MariaDB.jpg) 
 
 * To stop the containers
 ```
@@ -71,9 +75,13 @@ python3 main.py
 * I configured my output to appear as tables, you can use any display method you choose. The last 3 queries’ outputs were too large to post cleanly so I just posted the top portions.
 ## Output for the 4 queries:
 ### 1.) “The largest zipcode in zipcodes_one” 
+![The largest zipcode in zipcodes_one](1.jpg)
 ### 2.) “All zipcodes where state=KY (Kentucky)” 
+![All zipcodes where state=KY (Kentucky)](2.jpg)
 ### 3.) “All zipcodes between 40000 and 41000” 
+![All zipcodes between 40000 and 41000](3.jpg)
 ### 4.) “The TotalWages column where state=PA”
+![The TotalWages column where state=PA](4.jpg)
 
 
 
