@@ -1,7 +1,7 @@
 # Sharded Database Project Documentation
 
 This project involves the creation of a sharded database using MaxScale via Docker-Compose containers. The sharding technique allows for splitting large datasets into smaller pieces distributed across multiple databases, enhancing performance and scalability. To demonstrate the easier querying of the newly configured database a custom python script will be used. I will be using a VM running Ubuntu 22.10 for this demonstration. 
-(Thank you to Josh Brown, Brian Huang, and Celine for their help with formatting and troubleshooting)
+(Thank you to Josh Brown, Brian Huang, and Celine Smith for their help with formatting and troubleshooting)
 
 ## Prerequisites 
 You will need to have Docker installed on your machine, as well as MariaDB.
