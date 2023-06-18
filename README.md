@@ -4,6 +4,12 @@ This project involves the creation of a sharded database using MaxScale via Dock
 (Thank you to Josh Brown, Brian Huang, and Celine Smith for their help with formatting and troubleshooting)
 
 ## Prerequisites 
+
+The 'Tabulate' library will need to be added in order to format the last query's output, so install that first.
+* Install 'Tabulate' Library
+```
+sudo apt-get install python3-tabulate
+```
 You will need to have Docker installed on your machine, as well as MariaDB.
 * Install MySQL Connector 
 ```
